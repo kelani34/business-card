@@ -1,4 +1,3 @@
-import React from 'react'
 import cardImg from './assets/profile-img.png'
 import emailIcon from './assets/email-icon.png'
 import linkedinIcon from './assets/linkedin-icon.png'

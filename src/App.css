@@ -15,6 +15,7 @@ body{
   background-color: #1A1B21;
   width: 317px;
   margin: auto;
+  margin-bottom: 0;
 
 }
 .card {
@@ -52,4 +53,22 @@ body{
 }
 .card-btn-txt{
   margin:9px;
+}
+.about{
+  max-width: 317px;
+  margin: auto;
+  /* padding: 27px 34px; */
+  background-color: #1A1B21;
+  font-weight: 400;
+  margin-top: 0;
+  color: #DCDCDC;
+}
+.about>h3{
+  margin-top: 0;
+  font-size: 16px;
+}
+.about-contain{
+  padding: 33px 34px 27px 34px;
+  font-size:  10px;
+  line-height: 15px;
 }
