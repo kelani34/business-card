@@ -6,15 +6,22 @@ export default function Info(){
     return(
         <div className='info'>
             <img src={cardImg}/>
-            <h1 className='card-name'>Laura Smith</h1>
-            <h2 className='card-sub'>Frontend developer</h2>
-            <a href="#" className='card-link'>laura.website</a>
+            <h1 className='card-name'>Shina-Kelani Taiwo</h1>
+            <h2 className='card-sub'>Fullstack developer</h2>
+            <a href="https://darthcoder.netlify.app" className='card-link'>kelani.website</a>
             <div >
-                <button className='card-btn email'> 
-                    <img src={emailIcon} className='card-icon'/>
-                    <span className='card-btn-txt'>Email</span>
-                </button>
-                <button className='card-btn linkedin'> <img src={linkedinIcon} className='card-icon'/> <span className='card-btn-txt'>Linkedin</span></button>
+                <a href='mailto:kelanitaiwo34@gmail.com'>
+                    <button className='card-btn email'> 
+                        <img src={emailIcon} className='card-icon'/>
+                        <span className='card-btn-txt'>Email</span>
+                    </button>
+                </a>
+                <a href='https://linkedin.com/in/kelanitaiwo'>
+                    <button className='card-btn linkedin'> 
+                        <img src={linkedinIcon} className='card-icon'/> 
+                        <span className='card-btn-txt'>Linkedin</span>
+                    </button>
+                </a>
             </div>
         </div>
     )

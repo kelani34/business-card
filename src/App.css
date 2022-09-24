@@ -16,7 +16,11 @@ body{
   width: 317px;
   margin: auto;
   margin-bottom: 0;
-
+  border-radius: 10px 10px 0 0;
+}
+.info>img{
+  max-width: 317px;
+  border-radius: 10px 10px 0 0;
 }
 .card {
   padding: 2em;
@@ -89,4 +93,18 @@ body{
   padding: 0 34px 27px 34px;
   font-size:  10px;
   line-height: 15px;
+}
+
+.footer{
+  width: 317px;
+  margin: auto;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+}
+.footer-contain{
+  display: flex;
+  justify-content:space-between;
+  margin: 0 63px;
+  padding: 10px;
+  
 }
